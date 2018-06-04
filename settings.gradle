@@ -1,1 +1,1 @@
-include ':img-opengles'
+include ':img-opengles', ':camera-photo'
