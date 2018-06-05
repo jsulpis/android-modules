@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/camera-photo" />
             <option value="$PROJECT_DIR$/img-opengles" />
+            <option value="$PROJECT_DIR$/storage-files-io" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
