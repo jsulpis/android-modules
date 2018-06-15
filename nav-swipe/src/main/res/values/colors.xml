@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryLight">#67daff</color>
+    <color name="colorPrimaryDark">#007ac1</color>
+    <color name="colorAccent">#ffd54f</color>
+
+    <!-- Fragment colors -->
+    <color name="colorPageOne">#c5e1a5</color>
+    <color name="colorPageTwo">#ffcc80</color>
+    <color name="colorPageThree">#ffab91</color>
+</resources>

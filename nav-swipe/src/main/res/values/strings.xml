@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">nav-swipe</string>
+
+    <!-- Page Content -->
+    <string name="profile_page_message">We could put the user profile here.</string>
+    <string name="news_page_message">We could display some news here.</string>
+    <string name="settings_page_message">We could have some settings here.</string>
+</resources>

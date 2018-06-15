@@ -1,1 +1,1 @@
-include ':img-opengles', ':camera-photo', ':storage-files-io'
+include ':img-opengles', ':camera-photo', ':storage-files-io', ':nav-swipe'
