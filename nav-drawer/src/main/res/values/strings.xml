@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">nav-drawer</string>
+
+    <!-- Page Names -->
+    <string name="profile_page_name">Profile</string>
+    <string name="news_page_name">News</string>
+    <string name="settings_page_name">Settings</string>
+
+    <!-- Page Content -->
+    <string name="profile_page_message">We could put the user profile here.</string>
+    <string name="news_page_message">We could display some news here.</string>
+    <string name="settings_page_message">We could have some settings here.</string>
+
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_configuration_group_name">Configuration</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/camera-photo" />
             <option value="$PROJECT_DIR$/img-opengles" />
+            <option value="$PROJECT_DIR$/nav-drawer" />
             <option value="$PROJECT_DIR$/nav-swipe" />
             <option value="$PROJECT_DIR$/storage-files-io" />
           </set>
