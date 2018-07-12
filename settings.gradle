@@ -1,1 +1,1 @@
-include ':opengles-basics', ':camera-photo', ':storage-files-io', ':nav-swipe', ':nav-drawer', ':opengles-load-obj'
+include ':opengles-basics', ':camera-photo', ':storage-files-io', ':nav-swipe', ':nav-drawer', ':opengles-load-obj', ':sensors-overview'

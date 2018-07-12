@@ -1,4 +1,4 @@
-package com.example.jsulpis.androidguides;
+package com.example.opengles_basics;
 
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
@@ -19,7 +19,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     private final float[] mViewMatrix = new float[16];
     private float[] mRotationMatrix = new float[16];
 
-    public volatile float mAngle;
+    private volatile float mAngle;
 
     public float getAngle() {
         return mAngle;

@@ -1,4 +1,4 @@
-package com.example.jsulpis.androidguides;
+package com.example.opengles_basics;
 
 import android.opengl.GLES20;
 
@@ -16,8 +16,8 @@ public class Square {
     private ShortBuffer drawListBuffer; // The order of the vertices to draw
 
     // number of coordinates per vertex in this array
-    static final int COORDS_PER_VERTEX = 3;
-    static float squareCoords[] = {
+    private static final int COORDS_PER_VERTEX = 3;
+    private static float squareCoords[] = {
             -0.5f,  0.5f, 0.0f,   // top left
             -0.5f, -0.5f, 0.0f,   // bottom left
             0.5f, -0.5f, 0.0f,   // bottom right
@@ -62,7 +62,7 @@ public class Square {
     private int mColorHandle;
 
 
-    public Square() {
+    Square() {
         // initialize vertex byte buffer for shape coordinates
         ByteBuffer bb = ByteBuffer.allocateDirect(
                 // (# of coordinate values * 4 bytes per float)

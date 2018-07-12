@@ -1,4 +1,4 @@
-package com.example.jsulpis.androidguides;
+package com.example.opengles_basics;
 
 import android.opengl.GLES20;
 
@@ -14,7 +14,7 @@ public class Triangle {
     private FloatBuffer vertexBuffer;
 
     // number of coordinates per vertex in this array
-    static final int COORDS_PER_VERTEX = 3;
+    private static final int COORDS_PER_VERTEX = 3;
     private static float triangleCoords[] = {   // in counterclockwise order:
             0.0f,  0.622008459f, 0.0f, // top
             -0.5f, -0.311004243f, 0.0f, // bottom left
@@ -58,7 +58,7 @@ public class Triangle {
     private int mColorHandle;
 
 
-    public Triangle() {
+    Triangle() {
         // initialize vertex byte buffer for shape coordinates
         ByteBuffer bb = ByteBuffer.allocateDirect(
                 // (number of coordinate values * 4 bytes per float)

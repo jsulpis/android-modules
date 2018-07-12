@@ -1,4 +1,4 @@
-package com.example.jsulpis.androidguides;
+package com.example.opengles_basics;
 
 import android.content.Context;
 import android.opengl.GLSurfaceView;
